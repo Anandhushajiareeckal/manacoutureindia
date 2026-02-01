@@ -17,6 +17,11 @@ mix.webpackConfig({
     externals: {
         vue: 'Vue',
     },
+    resolve: {
+        alias: {
+            'autosize': 'autosize/dist/autosize.js',
+        }
+    }
 })
 
 mix.disableSuccessNotifications()
