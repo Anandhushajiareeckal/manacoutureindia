@@ -1,0 +1,34 @@
+$prefix: 'bb-' !default;
+$enable-negative-margins: true;
+
+// Define missing Tabler variables before imports
+$flag-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04) !default;
+$focus-ring-width: 0.25rem !default;
+$focus-ring-blur: 0 !default;
+$focus-ring-opacity: 0.25 !default;
+$focus-ring-color: rgba(var(--bb-primary-rgb), $focus-ring-opacity) !default;
+
+@import 'partials/core';
+@import 'partials/image-picker';
+@import 'partials/flags';
+@import 'partials/notification';
+@import 'partials/dashboard';
+@import 'partials/custom';
+@import 'partials/acl';
+@import 'partials/loading';
+@import 'partials/modal';
+@import 'partials/navbar';
+@import 'partials/setting';
+@import 'partials/widget';
+@import 'partials/dropzone';
+@import 'partials/datetimepicker';
+@import 'partials/rtl';
+@import 'partials/ui-selector';
+@import 'partials/form';
+@import 'partials/global-search';
+
+// @import '@tabler/core/src/scss/vendor/coloris'; // Not available in beta17
+
+@import 'partials/variable';
+
+@import 'partials/old-style';
